@@ -1,0 +1,47 @@
+### Comandos usados (en orden acorde a los pasos de la letra):
+
+mkdir Hola-Mundo
+
+cd Hola-Mundo
+
+git init
+
+git add .
+
+git commit -m "Commit inicial"
+
+git remote add origin https://github.com/Rafael-Dur/Hola-Mundo.git
+
+git pull origin main --allow-unrelated-histories
+
+git branch --set-upstream-to=origin/main
+
+git push origin HEAD
+
+git clone https://github.com/Rafael-Dur/Hola-Mundo.git
+
+cd Hola-Mundo
+
+git branch "dev"
+
+git checkout dev
+
+git add .
+
+git commit -m "Cambios en la rama"
+
+git push
+
+git checkout master
+
+git merge dev
+
+git push
+
+
+
+
+
+
+
+
